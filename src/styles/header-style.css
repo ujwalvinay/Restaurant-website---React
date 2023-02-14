@@ -1,0 +1,86 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 7rem;
+    padding-bottom: 6rem;
+}
+h1
+{
+    font-family: 'Elsie', cursive;
+    font-size: 75px;
+    font-weight: 300;
+    padding: 4rem 0;
+}
+.header-img
+{
+    position: relative;
+}
+.header-img img
+{
+    width: 550px;
+    position: absolute;
+    right: 1rem;
+    top: -6rem;
+}
+.booking-button
+{
+    padding: .75rem 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* Our story section */
+
+.our-story
+{
+    display: flex;
+    padding-inline: 7rem;
+    justify-content: space-between;
+}
+.our-story-images
+{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+.Lower-images
+{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.Higher-images
+{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: -6rem;
+    left: 20rem;
+}
+.our-story-img
+{
+    width: 300px;
+}
+.image1
+{
+    width: 280px;
+}
+.our-story-text
+{
+    width: 40%;
+    padding-top: 5rem ;
+}
+.our-story-title
+{
+    font-family: 'Elsie', cursive;
+    font-weight: 300;
+    font-size: 45px;
+    padding: 2rem 0;
+}

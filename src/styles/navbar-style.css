@@ -1,0 +1,30 @@
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 7rem;
+    align-items: center;
+   font-family: 'Inter', sans-serif;
+   
+}
+.navbar-brand img
+{
+    width: 250px;
+}
+.nav-item
+{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.nav-item li :hover
+{
+    opacity: 1;
+}
+
